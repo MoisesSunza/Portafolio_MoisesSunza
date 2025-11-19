@@ -117,42 +117,42 @@ const ContentArea = () => {
           description="Maqueta HTML se un sitio de e-Commerce accesible para personas invidentes, compatible con tecnologias de lectores de pantallas."
           tags={['HTML']}
           url='https://moisessunza.github.io/E-commerce-accesible/'
-          imgSrc='/assets/sitioAccesible.png'
+          imgSrc='./assets/sitioAccesible.png'
         />
         <ProjectCard
           title="Red Social Responsiva"
           description="Maquetado de una red social ficticia llamada The Anti-Social Club, con estructura en HTML y estilos con CSS."
           tags={['HTML', 'CSS']}
           url='https://moisessunza.github.io/The-Anti-Social-Club/'
-          imgSrc='/assets/redSocial.png'
+          imgSrc='./assets/redSocial.png'
         />
         <ProjectCard
           title="Glosario de HTML"
           description="Glosario dividido por funciones sobre las etiquetas más utilizadas al crear archivos HTML para la web, perfecto para estudiar antes de un examen."
           tags={['HTML ', 'CSS ']}
           url='https://moisessunza.github.io/CheatSheet_MoisesSunza/?authuser=0'
-          imgSrc='/assets/glosario.png'
+          imgSrc='./assets/glosario.png'
         />
         <ProjectCard
           title="Juego Con JavaScript"
           description="Pequeño juego sencillo llamado Chafa-Tale donde huimos de un enemigo, con musica de fondo y sliders para cambiar parametros de velocidad de los personajes."
           tags={['HTML ', 'CSS ', 'JavaScript ']}
           url='https://moisessunza.github.io/Chafa-tale/?authuser=0'
-          imgSrc='/assets/chafatale.png'
+          imgSrc='./assets/chafatale.png'
         />
         <ProjectCard
           title="Formulario de Registro de Personal Escolar"
           description="Formulario con operaciones CRUD para el manejo de personas en una base de datos remota, donde administramos personal escolar como alumnos, maestros o administrativos."
           tags={['HTML ', 'CSS ', 'JavaScript ']}
           url='https://moisessunza.github.io/formCRUD_72954/'
-          imgSrc='/assets/crud.png'
+          imgSrc='./assets/crud.png'
         />
         <ProjectCard
           title="TicTacToe en React"
           description="El clasico juego de TicTacToe o Gato recreado para navegador web y programado en React, y que cuenta con un historial de movimientos realizados."
           tags={['React ', 'HTML', 'CSS ', 'JavaScript']}
           url='https://moisessunza.github.io/tictactoe_react_72954/?authuser=0'
-          imgSrc='/assets/gato.png'
+          imgSrc='./assets/gato.png'
         />
       </section>
     </main>
@@ -180,7 +180,7 @@ const SocialNetworks = () => {
       </div>
 
       <button onClick={toggleMenu} className="social-trigger-btn" aria-label="Abrir redes sociales">
-        <img src='/logo.png' className='socialNet' alt="Logo Redes" />
+        <img src='./logo.png' className='socialNet' alt="Logo Redes" />
       </button>
     </div>
   );
